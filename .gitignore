@@ -1,0 +1,26 @@
+# Local datasets and downloaded archives
+/datasets/
+/*.csv
+*.zip
+*.rar
+*.7z
+
+# Local assessment brief and temporary files
+/CSC61304_IA_202609.pdf
+/tmp/
+
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Credentials and machine-specific files
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
+Desktop.ini
