@@ -1,0 +1,5 @@
+model,cv_micro_f1_mean,cv_micro_f1_std,cv_time_s
+Dummy (majority),0.5689,0.0,2.5844
+Logistic Regression,0.7324,0.0011,28.63
+Random Forest,0.7417,0.0009,18.6201
+CatBoost,0.743,0.0011,78.4254

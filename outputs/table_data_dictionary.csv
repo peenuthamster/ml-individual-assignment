@@ -1,0 +1,41 @@
+feature,group,dtype,unique_values,description
+building_id,Identifier,int64,260601,Unique building identifier
+geo_level_1_id,Location,int64,31,"Geographic region, level 1 (largest, district-like)"
+geo_level_2_id,Location,int64,1414,"Geographic region, level 2 (municipality-like)"
+geo_level_3_id,Location,int64,11595,"Geographic region, level 3 (most specific, ward-like)"
+count_floors_pre_eq,Numeric,int64,9,Number of floors before the earthquake
+age,Numeric,int64,42,Age of the building in years
+area_percentage,Numeric,int64,84,Normalised building footprint area
+height_percentage,Numeric,int64,27,Normalised building height
+land_surface_condition,Categorical,object,3,Surface condition of the land (encoded)
+foundation_type,Categorical,object,5,Type of foundation (encoded)
+roof_type,Categorical,object,3,Type of roof (encoded)
+ground_floor_type,Categorical,object,5,Type of ground floor (encoded)
+other_floor_type,Categorical,object,4,Type of construction of upper floors (encoded)
+position,Categorical,object,4,Position of the building relative to neighbours (encoded)
+plan_configuration,Categorical,object,10,Building plan shape (encoded)
+has_superstructure_adobe_mud,Superstructure (binary),int64,2,Superstructure made of adobe mud
+has_superstructure_mud_mortar_stone,Superstructure (binary),int64,2,Superstructure made of mud mortar stone
+has_superstructure_stone_flag,Superstructure (binary),int64,2,Superstructure made of stone flag
+has_superstructure_cement_mortar_stone,Superstructure (binary),int64,2,Superstructure made of cement mortar stone
+has_superstructure_mud_mortar_brick,Superstructure (binary),int64,2,Superstructure made of mud mortar brick
+has_superstructure_cement_mortar_brick,Superstructure (binary),int64,2,Superstructure made of cement mortar brick
+has_superstructure_timber,Superstructure (binary),int64,2,Superstructure made of timber
+has_superstructure_bamboo,Superstructure (binary),int64,2,Superstructure made of bamboo
+has_superstructure_rc_non_engineered,Superstructure (binary),int64,2,Superstructure made of rc non engineered
+has_superstructure_rc_engineered,Superstructure (binary),int64,2,Superstructure made of rc engineered
+has_superstructure_other,Superstructure (binary),int64,2,Superstructure made of other
+legal_ownership_status,Categorical,object,4,Legal ownership status of the land (encoded)
+count_families,Numeric,int64,10,Number of families living in the building
+has_secondary_use,Secondary use (binary),int64,2,Building used for any secondary purpose
+has_secondary_use_agriculture,Secondary use (binary),int64,2,Secondary use as agriculture
+has_secondary_use_hotel,Secondary use (binary),int64,2,Secondary use as hotel
+has_secondary_use_rental,Secondary use (binary),int64,2,Secondary use as rental
+has_secondary_use_institution,Secondary use (binary),int64,2,Secondary use as institution
+has_secondary_use_school,Secondary use (binary),int64,2,Secondary use as school
+has_secondary_use_industry,Secondary use (binary),int64,2,Secondary use as industry
+has_secondary_use_health_post,Secondary use (binary),int64,2,Secondary use as health post
+has_secondary_use_gov_office,Secondary use (binary),int64,2,Secondary use as gov office
+has_secondary_use_use_police,Secondary use (binary),int64,2,Secondary use as use police
+has_secondary_use_other,Secondary use (binary),int64,2,Secondary use as other
+damage_grade,Target,int64,3,"TARGET: damage level 1 (low), 2 (medium), 3 (near-complete destruction)"
